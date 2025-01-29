@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 # Title and Introduction
 st.title("Site Suitability Tool")
 st.markdown(
-    "Upload processed GeoTIFF files to dynamically calculate suitability scores using different weights."")
+    "Upload processed GeoTIFF files to dynamically calculate suitability scores using different weights.")
 
 @st.cache_data(max_entries=5)
 def load_raster(file):
